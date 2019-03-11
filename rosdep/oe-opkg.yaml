@@ -1,0 +1,335 @@
+asio:
+  oe:
+    opkg:
+      packages: [asio] # meta-oe
+
+assimp:
+  oe:
+    opkg:
+      packages: [assimp] # openembedded-core
+
+boost:
+  oe:
+    opkg:
+      packages: [boost] # openembedded-core
+
+bzip2:
+  oe:
+    opkg:
+      packages: [bzip2] # openembedded-core
+
+cmake:
+  oe:
+    opkg:
+      packages: [cmake] # openembedded-core
+
+cppcheck:
+  oe:
+    opkg:
+      packages: [cppcheck-native] # meta-sca
+
+curl:
+  oe:
+    opkg:
+      packages: [curl] # openembedded-core
+
+eigen:
+  oe:
+    opkg:
+      packages: [libeigen] # meta-oe
+
+git:
+  oe:
+    opkg:
+      packages: [git] # openembedded-core
+
+gtk3:
+  oe:
+    opkg:
+      packages: [gtk+3] # openembedded-core
+
+libcairo2-dev:
+  oe:
+    opkg:
+      packages: [cairo] # openembedded-core
+
+libceres-dev:
+  oe:
+    opkg:
+      packages: [ceres-solver] # meta-oe
+
+libconsole-bridge-dev:
+  oe:
+    opkg:
+      packages: [console-bridge] # meta-ros
+
+libexpat1-dev:
+  oe:
+    opkg:
+      packages: [expat] # openembedded-core
+
+libfreetype6-dev:
+  oe:
+    opkg:
+      packages: [freetype] # openembedded-core
+
+libfreetype6:
+  oe:
+    opkg:
+      packages: [freetype] # openembedded-core
+
+libgflags-dev:
+  oe:
+    opkg:
+      packages: [gflags] # meta-oe
+
+libglfw3-dev:
+  oe:
+    opkg:
+      packages: [glfw] # meta-intel-realsense
+
+libgpgme-dev:
+  oe:
+    opkg:
+      packages: [gpgme] # openembedded-core
+
+libogg:
+  oe:
+    opkg:
+      packages: [libogg] # openembedded-core
+
+libopencv-dev:
+  oe:
+    opkg:
+      packages: [opencv] # meta-oe
+
+libpcl-all-dev:
+  oe:
+    opkg:
+      packages: [pcl] # meta-ros
+
+libpcl-all:
+  oe:
+    opkg:
+      packages: [pcl] # meta-ros
+
+libpoco-dev:
+  oe:
+    opkg:
+      packages: [poco] # meta-oe
+
+libqt5-core:
+  oe:
+    opkg:
+      packages: [qtbase] # meta-qt5
+
+libqt5-gui:
+  oe:
+    opkg:
+      packages: [qtbase] # meta-qt5
+
+libqt5-opengl:
+  oe:
+    opkg:
+      packages: [qtbase] # meta-qt5
+
+libqt5-widgets:
+  oe:
+    opkg:
+      packages: [qtbase] # meta-qt5
+
+libsqlite3-dev:
+  oe:
+    opkg:
+      packages: [sqlite3] # openembedded-core
+
+libssl-dev:
+  oe:
+    opkg:
+      packages: [openssl] # openembedded-core
+
+libtheora:
+  oe:
+    opkg:
+      packages: [libtheora] # openembedded-core
+
+libudev-dev:
+  oe:
+    opkg:
+      packages: [eudev] # openembedded-core
+
+libusb-1.0-dev:
+  oe:
+    opkg:
+      packages: [libusb1] # openembedded-core
+
+libwebp-dev:
+  oe:
+    opkg:
+      packages: [libwebp] # openembedded-core
+
+libx11-dev:
+  oe:
+    opkg:
+      packages: [libx11] # openembedded-core
+
+libxaw:
+  oe:
+    opkg:
+      packages: [libxaw] # meta-oe
+
+libxml2-utils:
+  oe:
+    opkg:
+      packages: [libxml2] # openembedded-core
+
+libxrandr:
+  oe:
+    opkg:
+      packages: [libxrandr] # openembedded-core
+
+libzmq3-dev:
+  oe:
+    opkg:
+      packages: [zeromq] # meta-oe
+
+lua5.2-dev:
+  oe:
+    opkg:
+      packages: [lua] # meta-oe
+
+opengl:
+  oe:
+    opkg:
+      packages: [mesa] # openembedded-core
+
+openssl:
+  oe:
+    opkg:
+      packages: [openssl] # openembedded-core
+
+pcre:
+  oe:
+    opkg:
+      packages: [libpcre] # openembedded-core
+
+pkg-config:
+  oe:
+    opkg:
+      packages: [pkgconf] # openembedded-core
+
+protobuf-dev:
+  oe:
+    opkg:
+      packages: [protobuf] # meta-oe
+
+pyflakes3:
+ oe:
+  opkg:
+    packages: [python-pyflakes] # meta-python
+
+python-mock:
+  oe:
+    opkg:
+      packages: [python-mock] # meta-python
+
+python-sphinx:
+  oe:
+    opkg:
+      packages: [python-sphinx] # meta-virtualization
+
+python3-empy:
+  oe:
+    opkg:
+      packages: [python3-empy] # meta-ros
+
+python3-flake8:
+  oe:
+    opkg:
+      packages: [python-flake8] # meta-openstack
+
+python3-matplotlib:
+  oe:
+    opkg:
+      packages: [python-matplotlib] # meta-python
+
+python3-mock:
+  oe:
+    opkg:
+      packages: [python-mock] # meta-python
+
+python3-numpy:
+  oe:
+    opkg:
+      packages: [python3-numpy] # openembedded-core
+
+python3-pep8:
+ oe:
+  opkg:
+    packages: [python-pep8] # meta-python
+
+python3-psutil:
+  oe:
+    opkg:
+      packages: [python3-psutil] # meta-python
+
+python3-pyparsing:
+  oe:
+    opkg:
+      packages: [python3-pyparsing] # meta-python
+
+python3-setuptools:
+  oe:
+    opkg:
+      packages: [python3-setuptools] # openembedded-core
+
+python3-yaml:
+ oe:
+  opkg:
+    packages: [python-pyyaml] # meta-python
+
+qtbase5-dev:
+  oe:
+    opkg:
+      packages: [qtbase] # meta-qt5
+
+sdl-image:
+  oe:
+    opkg:
+      packages: [libsdl-image] # meta-oe
+
+sdl:
+  oe:
+    opkg:
+      packages: [libsdl] # openembedded-core
+
+tinyxml2:
+  oe:
+    opkg:
+      packages: [libtinyxml2] # meta-oe
+
+tinyxml:
+  oe:
+    opkg:
+      packages: [libtinyxml] # meta-oe
+
+udev:
+  oe:
+    opkg:
+      packages: [eudev] # openembedded-core
+
+yaml:
+  oe:
+    opkg:
+      packages: [libyaml] # openembedded-core
+
+yaml-cpp:
+  oe:
+    opkg:
+      packages: [yaml-cpp] # meta-ros
+
+zlib:
+  oe:
+    opkg:
+      packages: [zlib] # openembedded-core
+

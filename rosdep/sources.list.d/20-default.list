@@ -1,4 +1,5 @@
 # os-specific listings first
+yaml https://raw.githubusercontent.com/andre-rosa/rosdistro/wip_oe/rosdep/oe-opkg.yaml
 yaml https://raw.githubusercontent.com/ros/rosdistro/master/rosdep/osx-homebrew.yaml osx
 
 # generic
